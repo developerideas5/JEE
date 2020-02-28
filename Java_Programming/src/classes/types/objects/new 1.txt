@@ -1,0 +1,451 @@
+1.What is JVM?
+The Java interpreter along with the runtime environment required to run the Java application in called as Java virtual machine(JVM)
+
+2. What is the most important feature of Java?
+Java is a platform independent language.
+
+3. What do you mean by platform independence?
+Platform independence means that we can write and compile the java code in one platform (eg Windows) and can execute the class in any other supported platform eg (Linux,Solaris,etc).
+
+4. What is the difference between a JDK and a JVM?
+JDK is Java Development Kit which is for development purpose and it includes execution environment also. But JVM is purely a run time environment and hence you will not be able to compile your source files using a JVM.
+
+5. What is the base class of all classes?
+
+java.lang.Object
+
+ 
+
+
+6. What are the access modifiers in Java?
+
+There are 3 access modifiers. Public, protected and private, and the default one if no identifier is specified is called friendly, but programmer cannot specify the friendly identifier explicitly.
+
+ 
+
+
+7. What is are packages?
+
+A package is a collection of related classes and interfaces providing access protection and namespace management.
+
+ 
+
+
+8. What is meant by Inheritance and what are its advantages?
+
+ Inheritance is the process of inheriting all the features from a class. The advantages of inheritance are reusability of code and accessibility of variables and methods of the super class by subclasses.
+
+ 
+
+
+9. What is the difference between superclass and subclass?
+
+ A super class is a class that is inherited whereas sub class is a class that does the inheriting.
+
+ 
+
+
+10. What is an abstract class?
+
+An abstract class is a class designed with implementation gaps for subclasses to fill in and is deliberately incomplete.
+
+ 
+
+
+11. What are the states associated in the thread?
+
+Thread contains ready, running, waiting and dead states.
+
+ 
+
+
+12. What is synchronization?
+
+Synchronization is the mechanism that ensures that only one thread is accessed the resources at a time.
+
+ 
+
+
+13. What is deadlock?
+
+When two threads are waiting each other and can’t precede the program is said to be deadlock.
+
+ 
+
+
+14. What is an applet?
+
+Applet is a dynamic and interactive program that runs inside a web page displayed by a java capable browser
+
+ 
+
+
+15. What is the lifecycle of an applet?
+
+init() method - Can be called when an applet is first loaded
+ start() method - Can be called each time an applet is started.
+paint() method - Can be called when the applet is minimized or maximized.
+stop() method - Can be used when the browser moves off the applet’s page.
+destroy() method - Can be called when the browser is finished with the applet.
+
+ 
+
+
+16. How do you set security in applets?
+
+using setSecurityManager() method
+
+ 
+
+
+17. What is a layout manager and what are different types of layout managers available in java AWT?
+
+ A layout manager is an object that is used to organize components in a container. The different layouts are available are FlowLayout, BorderLayout, CardLayout, GridLayout and GridBagLayout
+
+ 
+
+
+18. What is JDBC?
+
+JDBC is a set of Java API for executing SQL statements. This API consists of a set of classes and interfaces to enable programs to write pure Java Database applications.
+
+ 
+
+
+19. What are drivers available?
+
+-a) JDBC-ODBC Bridge driver b) Native API Partly-Java driver
+ c) JDBC-Net Pure Java driver d) Native-Protocol Pure Java driver
+
+ 
+
+
+20. What is stored procedure?
+
+Stored procedure is a group of SQL statements that forms a logical unit and performs a particular task. Stored Procedures are used to encapsulate a set of operations or queries to execute on database. Stored procedures can be compiled and executed with different parameters and results and may have any combination of input/output parameters.
+
+ 
+
+
+21. What is the Java API?
+
+The Java API is a large collection of ready-made software components that provide many useful capabilities, such as graphical user interface (GUI) widgets.
+
+ 
+
+
+22. Why there are no global variables in Java?
+
+Global variables are globally accessible. Java does not support globally accessible variables due to following reasons:
+1)The global variables breaks the referential transparency
+2)Global variables creates collisions in namespace.
+
+ 
+
+
+23. What are Encapsulation, Inheritance and Polymorphism?
+
+ Encapsulation is the mechanism that binds together code and data it manipulates and keeps both safe from outside interference and misuse. Inheritance is the process by which one object acquires the properties of another object. Polymorphism is the feature that allows one interface to be used for general class actions.
+
+ 
+
+
+24. What is the use of bin and lib in JDK?
+
+Bin contains all tools such as javac, appletviewer, awt tool, etc., whereas lib contains API and all packages.
+
+ 
+
+
+25. What is method overloading and method overriding?
+
+Method overloading: When a method in a class having the same method name with different arguments is said to be method overloading. Method overriding : When a method in a class having the same method name with same arguments is said to be method overriding.
+
+ 
+
+
+26. What is the difference between this() and super()?
+
+this() can be used to invoke a constructor of the same class whereas super() can be used to invoke a super class constructor.
+
+ 
+
+
+27. What is Domain Naming Service(DNS)?
+
+It is very difficult to remember a set of numbers(IP address) to connect to the Internet. The Domain Naming Service(DNS) is used to overcome this problem. It maps one particular IP address to a string of characters. For example, www. mascom. com implies com is the domain name reserved for US commercial sites, moscom is the name of the company and www is the name of the specific computer, which is mascom’s server.
+
+ 
+
+
+28. What is URL?
+
+URL stands for Uniform Resource Locator and it points to resource files on the Internet. URL has four components: http://www. address. com:80/index.html, where http - protocol name, address - IP address or host name, 80 - port number and index.html - file path.
+
+ 
+
+
+29. What is RMI and steps involved in developing an RMI object?
+
+Remote Method Invocation (RMI) allows java object that executes on one machine and to invoke the method of a Java object to execute on another machine. The steps involved in developing an RMI object are: a) Define the interfaces b) Implementing these interfaces c) Compile the interfaces and their implementations with the java compiler d) Compile the server implementation with RMI compiler e) Run the RMI registry f) Run the application.
+
+ 
+
+
+30. What is RMI architecture?
+
+RMI architecture consists of four layers and each layer performs specific functions: a) Application layer - contains the actual object definition. b) Proxy layer - consists of stub and skeleton. c) Remote Reference layer - gets the stream of bytes from the transport layer and sends it to the proxy layer. d) Transportation layer - responsible for handling the actual machine-to-machine communication.
+
+ 
+
+
+31. What is a Java Bean?
+
+A Java Bean is a software component that has been designed to be reusable in a variety of different environments.
+
+
+32. What are checked exceptions?
+
+Checked exception are those which the Java compiler forces you to catch. e.g. IOException are checked Exceptions.
+
+ 
+
+
+33. What are runtime exceptions?
+
+Runtime exceptions are those exceptions that are thrown at runtime because of either wrong input data or because of wrong business logic etc. These are not checked by the compiler at compile time.
+
+ 
+
+
+34. What is the difference between error and an exception?
+
+An error is an irrecoverable condition occurring at runtime. Such as OutOfMemory error. These JVM errors and you can not repair them at runtime. While exceptions are conditions that occur because of bad input etc. e.g. FileNotFoundException will be thrown if the specified file does not exist. Or a NullPointerException will take place if you try using a null reference. In most of the cases it is possible to recover from an exception (probably by giving user a feedback for entering proper values etc.).
+
+ 
+
+
+35. What is the purpose of finalization?
+
+The purpose of finalization is to give an unreachable object the opportunity to perform any cleanup processing before the object is garbage collected. For example, closing a opened file, closing a opened database Connection.
+
+ 
+
+
+36. What is the difference between yielding and sleeping?
+
+When a task invokes its yield() method, it returns to the ready state. When a task invokes its sleep() method, it returns to the waiting state.
+
+ 
+
+
+37. What is the difference between preemptive scheduling and time slicing?
+
+Under preemptive scheduling, the highest priority task executes until it enters the waiting or dead states or a higher priority task comes into existence. Under time slicing, a task executes for a predefined slice of time and then reenters the pool of ready tasks. The scheduler then determines which task should execute next, based on priority and other factors.
+
+ 
+
+
+38. What is mutable object and immutable object?
+
+If a object value is changeable then we can call it as Mutable object. (Ex., StringBuffer, …) If you are not allowed to change the value of an object, it is immutable object. (Ex., String, Integer, Float, …)
+
+
+39. What is the purpose of Void class?
+
+The Void class is an uninstantiable placeholder class to hold a reference to the Class object representing the primitive Java type void.
+
+ 
+
+
+40. What is JIT and its use?
+
+Really, just a very fast compiler… In this incarnation, pretty much a one-pass compiler — no offline computations. So you can’t look at the whole method, rank the expressions according to which ones are re-used the most, and then generate code. In theory terms, it’s an on-line problem.
+
+ 
+
+
+41. What is nested class?
+
+If all the methods of a inner class is static then it is a nested class.
+
+
+42. What is HashMap and Map?
+
+Map is Interface and Hashmap is class that implements that.
+
+
+43. What are different types of access modifiers?
+
+public: Any thing declared as public can be accessed from anywhere. private: Any thing declared as private can’t be seen outside of its class. protected: Any thing declared as protected can be accessed by classes in the same package and subclasses in the other packages. default modifier : Can be accessed only to classes in the same package.
+
+ 
+
+
+44. What is the difference between Reader/Writer and InputStream/Output Stream?
+
+The Reader/Writer class is character-oriented and the InputStream/OutputStream class is byte-oriented.
+
+ 
+
+
+45. What is servlet?
+
+Servlets are modules that extend request/response-oriented servers, such as java-enabled web servers. For example, a servlet might be responsible for taking data in an HTML order-entry form and applying the business logic used to update a company’s order database.
+ 
+
+ 
+
+46. What is Constructor?
+
+A constructor is a special method whose task is to initialize the object of its class.
+ It is special because its name is the same as the class name.
+They do not have return types, not even void and therefore they cannot return values.
+ They cannot be inherited, though a derived class can call the base class constructor.   
+ Constructor is invoked whenever an object of its associated class is created.
+
+ 
+
+
+47. What is an Iterator ?
+The Iterator interface is used to step through the elements of a Collection.
+Iterators let you process each element of a Collection.
+Iterators are a generic way to go through all the elements of a Collection no matter how it is organized.
+Iterator is an Interface implemented a different way for every Collection.
+
+ 
+
+
+48. What is the List interface?
+
+The List interface provides support for ordered collections of objects.
+Lists may contain duplicate elements.
+
+ 
+
+
+49. What is memory leak?
+
+A memory leak is where an unreferenced object that will never be used again still hangs around in memory and doesnt get garbage collected.
+
+ 
+
+
+50. What is the difference between the prefix and postfix forms of the ++ operator?
+
+The prefix form performs the increment operation and returns the value of the increment operation. The postfix form returns the current value all of the expression and then performs the increment operation on that value.
+
+ 
+
+
+51. What is the difference between a constructor and a method?
+
+A constructor is a member function of a class that is used to create objects of that class. It has the same name as the class itself, has no return type, and is invoked using the new operator.
+A method is an ordinary member function of a class. It has its own name, a return type (which may be void), and is invoked using the dot operator.
+
+ 
+
+
+52. What will happen to the Exception object after exception handling?
+
+Exception object will be garbage collected.
+
+ 
+
+
+53. Difference between static and dynamic class loading.  
+
+Static class loading: The process of loading a class using new operator is called static class loading. Dynamic class loading: The process of loading a class at runtime is called dynamic class loading.
+Dynamic class loading can be done by using Class.forName(….).newInstance().
+
+ 
+
+
+54. Explain the Common use of EJB
+
+The EJBs can be used to incorporate business logic in a web-centric application.
+The EJBs can be used to integrate business processes in Business-to-business (B2B) e-commerce applications.In Enterprise Application Integration applications, EJBs can be used to house processing and mapping between different applications.
+
+ 
+
+
+55. What is JSP?
+
+JSP is a technology that returns dynamic content to the Web client using HTML, XML and JAVA elements. JSP page looks like a HTML page but is a servlet. It contains Presentation logic and business logic of a web application.
+
+ 
+
+
+56. What is the purpose of apache tomcat?
+
+Apache server is a standalone server that is used to test servlets and create JSP pages. It is free and open source that is integrated in the Apache web server. It is fast, reliable server to configure the applications but it is hard to install. It is a servlet container that includes tools to configure and manage the server to run the applications. It can also be configured by editing XML configuration files.
+
+ 
+
+
+57. Where pragma is used?
+
+Pragma is used inside the servlets in the header with a certain value. The value is of no-cache that tells that a servlets is acting as a proxy and it has to forward request. Pragma directives allow the compiler to use machine and operating system features while keeping the overall functionality with the Java language. These are different for different compilers.
+
+ 
+
+
+58. Briefly explain daemon thread.
+
+Daemon thread is a low priority thread which runs in the background performs garbage collection operation for the java runtime system.
+
+ 
+
+
+59. What is a native method?
+
+A native method is a method that is implemented in a language other than Java.
+
+ 
+
+
+60. Explain different way of using thread?
+
+A Java thread could be implemented by using Runnable interface or by extending the Thread class. The Runnable is more advantageous, when you are going for multiple inheritance.
+
+ 
+
+
+61. What are the two major components of JDBC?
+
+One implementation interface for database manufacturers, the other implementation interface for application and applet writers.
+
+ 
+
+
+62. What kind of thread is the Garbage collector thread?
+
+It is a daemon thread.
+
+ 
+
+
+63. What are the different ways to handle exceptions?
+
+There are two ways to handle exceptions,
+1. By wrapping the desired code in a try block followed by a catch block to catch the exceptions. and
+2. List the desired exceptions in the throws clause of the method and let the caller of the method handle those exceptions.
+
+ 
+
+
+64. How many objects are created in the following piece of code?
+
+MyClass c1, c2, c3;
+c1 = new MyClass ();
+c3 = new MyClass ();
+Answer: Only 2 objects are created, c1 and c3. The reference c2 is only declared and not initialized.
+
+ 
+
+
+65.What is UNICODE?
+
+Unicode is used for internal representation of characters and strings and it uses 16 bits to represent each other.
+
+ 
