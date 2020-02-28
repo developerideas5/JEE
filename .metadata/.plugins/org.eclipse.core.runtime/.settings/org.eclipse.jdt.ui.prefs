@@ -1,0 +1,22 @@
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Runnable"><rhs name\="Wombat"/><rhs name\="java.lang.Thread"/></lhs><lhs name\="Wombat"><rhs name\="Wombat"/></lhs><lhs name\="com.accessing.interfaces.Animal"><rhs name\="com.accessing.interfaces.Dog"/></lhs><lhs name\="com.accessing.interfaces.Dog"><rhs name\="com.accessing.interfaces.Dog"/></lhs><lhs name\="com.trial.example.CarSpecification"><rhs name\="com.trial.example.Car"/></lhs><lhs name\="com.trial.example.Car"><rhs name\="com.trial.example.Car"/><rhs name\="com.trial.example.CarSpecification"/></lhs><lhs name\="com.initlizationblock.Animal_Using_Static"><rhs name\="com.initlizationblock.Dog_Using_Static"/></lhs><lhs name\="Tree"><rhs name\="Chrome"/></lhs><lhs name\="Chrome"><rhs name\="Chrome"/></lhs><lhs name\="java.lang.Thread"><rhs name\="java.lang.Thread"/></lhs><lhs name\="com.Garbage.Collector.GarbageCollector"><rhs name\="com.Garbage.Collector.GarbageCollector"/></lhs><lhs name\="com.Garbage.Collector.Scope"><rhs name\="com.Garbage.Collector.Scope"/></lhs><lhs name\="com.Garbage.Collector.Passing_variables"><rhs name\="com.Garbage.Collector.Passing_variables"/></lhs><lhs name\="com.arrays.arraylist.MultiDimentional_Arrays"><rhs name\="com.arrays.arraylist.MultiDimentional_Arrays"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="com.operators.Operators_and_Decision"><rhs name\="com.operators.Operators_and_Decision"/></lhs><lhs name\="Loops"><rhs name\="Loops"/></lhs><lhs name\="java.lang.Enum"><rhs name\="OptionType"/><rhs name\="domain.OptionType"/></lhs><lhs name\="OptionType"><rhs name\="OptionType"/></lhs><lhs name\="domain.OptionType"><rhs name\="domain.OptionType"/></lhs><lhs name\="domain.Player"><rhs name\="domain.Player"/></lhs></history>
+content_assist_number_of_computers=24
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+fontPropagated=true
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.editor.tab.width=
+org.eclipse.jdt.ui.formatterprofiles.version=12
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+org.eclipse.jface.textfont=1|Consolas|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Consolas;
+proposalOrderMigrated=true
+spelling_locale_initialized=true
+tabWidthPropagated=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

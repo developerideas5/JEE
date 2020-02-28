@@ -1,0 +1,23 @@
+package classes.types.objects;
+
+import java.beans.Transient;
+
+public class Reserved_Keywords {
+	/*
+	 * abstract final static void public protected default private boolean byte
+	 * int float double long char
+	 * 
+	 * break continue if else for while do{}while(true); switch
+	 * 
+	 * return super goto
+	 * 
+	 * interface extends implements import instanceof
+	 * 
+	 * try catch finally new this throws throw false true short
+	 * 
+	 * native synchronized volatile transient null
+	 * 
+	 * 
+	 */
+
+}

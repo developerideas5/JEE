@@ -1,0 +1,4 @@
+1471947659663	Convert local variable 'test' to field
+1471947685694	Encapsulate field 'test'
+1471948202577	Rename compilation unit 'SmallInt.java'
+1472128545430	Delete element
